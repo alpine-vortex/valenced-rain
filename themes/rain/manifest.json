@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "rain-themes.palettes",
+	"name": "Rain Themes",
+	"description": "21 colour palettes (Catppuccin, Tokyo Night, Rosé Pine, Gruvbox and more), with light flavours and matching wallpapers.",
+	"author": "rain-themes (https://github.com/alpine-vortex/rain-themes \"GitHub\")",
+	"icon": "PaintPaletteIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"valenced.api.themes": {
+			"version": ">=1 <2"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
